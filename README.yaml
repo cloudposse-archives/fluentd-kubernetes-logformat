@@ -1,0 +1,69 @@
+# Name of this project
+name: fluentd-kubernetes-logformat
+
+# License of this project
+license: APACHE2
+
+# Canonical GitHub repo
+github_repo: cloudposse/fluentd-kubernetes-logformat
+
+# Logo for this project
+#logo: docs/logo.png
+
+# Badges to display
+badges:
+  - name: "Build Status"
+    image: "https://travis-ci.org/cloudposse/prometheus-to-cloudwatch.svg?branch=master"
+    url: "https://travis-ci.org/cloudposse/prometheus-to-cloudwatch"
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/cloudposse/fluentd-kubernetes-logformat.svg"
+    url: "https://github.com/cloudposse/fluentd-kubernetes-logformat/releases/latest"
+  - name: "Slack Community"
+    image: "https://slack.cloudposse.com/badge.svg"
+    url: "https://slack.cloudposse.com"
+
+related:
+
+  - name: "Fluentd Daemonset for Kubernetes"
+    description: "Fluentd daemonset for Kubernetes and it Docker image"
+    url: "https://github.com/cloudposse/fluentd-kubernetes-daemonset"
+
+description: |-
+
+  Adds parsing features for kubernetes logs corresponding to logformat pod label
+
+usage: |-
+
+  Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (`conf.d` folder)
+
+examples: |-
+  ### Build Go program
+  ```
+  ...
+  # Deployment configuration
+  deployment:
+    enabled: true
+    pod:
+      labels:
+        logformat: "logfmt"
+    strategy:
+      type: "RollingUpdate"
+      rollingUpdate:
+        maxUnavailable: 1
+    revisionHistoryLimit: 5
+  ...
+  ```
+
+screenshots:
+
+- name: "kube-state-metrics-to-cloudwatch"
+  url: "images/kube-state-metrics-to-cloudwatch.png"
+  description: "kube-state-metrics to CloudWatch"
+
+
+# Contributors to this project
+contributors:
+  - name: "Erik Osterman"
+    github: "osterman"
+  - name: "Maxim Mironenko"
+    github: "maximmi"
