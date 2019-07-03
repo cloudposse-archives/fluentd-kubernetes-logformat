@@ -3,7 +3,7 @@
 
 [![Cloud Posse][logo]](https://cpco.io/homepage)
 
-# fluentd-kubernetes-logformat [![Build Status](https://travis-ci.org/cloudposse/prometheus-to-cloudwatch.svg?branch=master)](https://travis-ci.org/cloudposse/prometheus-to-cloudwatch) [![Latest Release](https://img.shields.io/github/release/cloudposse/fluentd-kubernetes-logformat.svg)](https://github.com/cloudposse/fluentd-kubernetes-logformat/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
+# fluentd-kubernetes-logformat [![Codefresh build status](https://g.codefresh.io/api/badges/pipeline/cloudposse/cloudposse%2Ffluentd-kubernetes-daemonset%2Flogformat-build?type=cf-1)](https://g.codefresh.io/public/accounts/cloudposse/pipelines/5d1a38bf75796224106797ed) [![Latest Release](https://img.shields.io/github/release/cloudposse/fluentd-kubernetes-logformat.svg)](https://github.com/cloudposse/fluentd-kubernetes-logformat/releases/latest) [![Slack Community](https://slack.cloudposse.com/badge.svg)](https://slack.cloudposse.com)
 
 
 
@@ -38,8 +38,8 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 ## Screenshots
 
 
-![kube-state-metrics-to-cloudwatch](images/kube-state-metrics-to-cloudwatch.png)
-*kube-state-metrics to CloudWatch*
+![fluentd-kubernetes-logformat-kibana](https://uc4f11deb775c4f5a8d3f4a96d86.dl.dropboxusercontent.com/cd/0/inline/Aj8_PZU5bgy5hw46vFMo4OvpKc8YDH8zaW7-8cYMuQh262OTyjk-J9ZPcDi0ww-yM3rhip-Ls7n1xsHVwtad5UXWcx4D3BpJjqXh8p0Gc7wrdQ/file)
+*fluentd-kubernetes-logformat parsed log field*
 
 
 

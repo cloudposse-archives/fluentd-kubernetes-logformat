@@ -56,9 +56,9 @@ examples: |-
 
 screenshots:
 
-- name: "kube-state-metrics-to-cloudwatch"
-  url: "images/kube-state-metrics-to-cloudwatch.png"
-  description: "kube-state-metrics to CloudWatch"
+- name: "fluentd-kubernetes-logformat-kibana"
+  url: "https://uc4f11deb775c4f5a8d3f4a96d86.dl.dropboxusercontent.com/cd/0/inline/Aj8_PZU5bgy5hw46vFMo4OvpKc8YDH8zaW7-8cYMuQh262OTyjk-J9ZPcDi0ww-yM3rhip-Ls7n1xsHVwtad5UXWcx4D3BpJjqXh8p0Gc7wrdQ/file"
+  description: "fluentd-kubernetes-logformat parsed log field"
 
 
 # Contributors to this project
