@@ -7,6 +7,7 @@
 
 
 
+Allows labeling Kubernetes pods with `logformat` labels to support different log formats
 Adds parsing features for kubernetes logs corresponding to logformat pod label
 
 
@@ -48,7 +49,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (`conf.d` folder)
+Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (see `conf.d` folder)
 
 
 
@@ -87,7 +88,7 @@ Are you using this project or any of our other projects? Consider [leaving a tes
 
 Check out these related projects.
 
-- [Fluentd Daemonset for Kubernetes](https://github.com/cloudposse/fluentd-kubernetes-daemonset) - Fluentd daemonset for Kubernetes and it Docker image
+- [Fluentd Daemonset for Kubernetes](https://github.com/cloudposse/fluentd-kubernetes-daemonset) - Fluentd daemonset for Kubernetes and its Docker image
 
 
 

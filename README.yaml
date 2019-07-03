@@ -25,16 +25,17 @@ badges:
 related:
 
   - name: "Fluentd Daemonset for Kubernetes"
-    description: "Fluentd daemonset for Kubernetes and it Docker image"
+    description: "Fluentd daemonset for Kubernetes and its Docker image"
     url: "https://github.com/cloudposse/fluentd-kubernetes-daemonset"
 
 description: |-
 
+  Allows labeling Kubernetes pods with `logformat` labels to support different log formats
   Adds parsing features for kubernetes logs corresponding to logformat pod label
 
 usage: |-
 
-  Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (`conf.d` folder)
+  Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (see `conf.d` folder)
 
 examples: |-
   ### Build Go program
