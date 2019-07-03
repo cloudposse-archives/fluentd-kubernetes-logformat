@@ -54,25 +54,6 @@ Add `logformat` label with log format of your application helm chart. Make sure 
 
 
 
-## Examples
-
-### Build Go program
-```
-...
-# Deployment configuration
-deployment:
-  enabled: true
-  pod:
-    labels:
-      logformat: "logfmt"
-  strategy:
-    type: "RollingUpdate"
-    rollingUpdate:
-      maxUnavailable: 1
-  revisionHistoryLimit: 5
-...
-```
-
 
 
 
