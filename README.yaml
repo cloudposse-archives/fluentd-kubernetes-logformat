@@ -1,0 +1,52 @@
+# Name of this project
+name: fluentd-kubernetes-logformat
+
+# License of this project
+license: APACHE2
+
+# Canonical GitHub repo
+github_repo: cloudposse/fluentd-kubernetes-logformat
+
+# Logo for this project
+#logo: docs/logo.png
+
+# Badges to display
+badges:
+  - name: "Codefresh build status"
+    image: "https://g.codefresh.io/api/badges/pipeline/cloudposse/cloudposse%2Ffluentd-kubernetes-daemonset%2Flogformat-build?type=cf-1"
+    url: "https://g.codefresh.io/public/accounts/cloudposse/pipelines/5d1a38bf75796224106797ed"
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/cloudposse/fluentd-kubernetes-logformat.svg"
+    url: "https://github.com/cloudposse/fluentd-kubernetes-logformat/releases/latest"
+  - name: "Slack Community"
+    image: "https://slack.cloudposse.com/badge.svg"
+    url: "https://slack.cloudposse.com"
+
+related:
+
+  - name: "Fluentd Daemonset for Kubernetes"
+    description: "Fluentd daemonset for Kubernetes and its Docker image"
+    url: "https://github.com/cloudposse/fluentd-kubernetes-daemonset"
+
+description: |-
+
+  Allows labeling Kubernetes pods with `logformat` labels to support different log formats
+  Adds parsing features for kubernetes logs corresponding to logformat pod label
+
+usage: |-
+
+  Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (see `conf.d` folder)
+
+screenshots:
+
+- name: "fluentd-kubernetes-logformat-kibana"
+  url: "https://uc4f11deb775c4f5a8d3f4a96d86.dl.dropboxusercontent.com/cd/0/inline/Aj8_PZU5bgy5hw46vFMo4OvpKc8YDH8zaW7-8cYMuQh262OTyjk-J9ZPcDi0ww-yM3rhip-Ls7n1xsHVwtad5UXWcx4D3BpJjqXh8p0Gc7wrdQ/file"
+  description: "fluentd-kubernetes-logformat parsed log field"
+
+
+# Contributors to this project
+contributors:
+  - name: "Erik Osterman"
+    github: "osterman"
+  - name: "Maxim Mironenko"
+    github: "maximmi"
