@@ -33,9 +33,21 @@ description: |-
   Allows labeling Kubernetes pods with `logformat` labels to support different log formats
   Adds parsing features for kubernetes logs corresponding to logformat pod label
 
+  Also allow to setup logs throttling. For more details, see [fluent-plugin-throttle](https://github.com/rubrikinc/fluent-plugin-throttle)
+
 usage: |-
 
-  Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (see `conf.d` folder)
+  ~~Add `logformat` label with log format of your application helm chart. Make sure `fluentd` supports it (see `conf.d` folder)~~
+
+  Pass following environment variables into container:
+  ```code
+  FLUENTD_THROTTLE_GROUP_KEY
+  FLUENTD_THROTTLE_GROUP_BUCKET_PERIOD
+  FLUENTD_THROTTLE_GROUP_BUCKET_LIMIT
+  FLUENTD_THROTTLE_GROUP_DROP_LOGS
+  FLUENTD_THROTTLE_GROUP_RESET_RATE
+  FLUENTD_THROTTLE_GROUP_WARNING_DELAY
+  ```
 
 screenshots:
 
