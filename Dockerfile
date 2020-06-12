@@ -8,3 +8,4 @@ RUN gem install fluent-plugin-parser-logfmt \
  && rm -rf /home/fluent/.gem/ruby/2.5.0/cache/*.gem
 
 COPY conf.d /fluentd/etc/conf.d
+COPY fluent_kinesis.conf /fluentd/etc/fluent.conf
